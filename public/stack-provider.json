@@ -1,0 +1,37 @@
+{
+    "$schema": "https://stack.skycapp.com/stack.schema.json",
+    "title": "CDex Provider FHIR Stack Controller",
+    "instructions": "Load the default provider server records.",
+    "fhir_base_url": "http://localhost:8082/fhir",
+    "links": [
+        {
+            "name": "CDex Client",
+            "url": "http://localhost:4201"
+        },
+        {
+            "name": "Payer Stack Controller",
+            "url": "http://localhost:4202"
+        },
+        {
+            "name": "Provider Stack Controller",
+            "url": "http://localhost:4203"
+        },
+        {
+            "name": "Payer HAPI FHIR (R4 Mode)",
+            "url": "http://localhost:8081"
+        },
+        {
+            "name": "Provider HAPI FHIR (R4 Mode)",
+            "url": "http://localhost:8082"
+        }
+    ],
+    "data": [
+        {
+            "file": "provider.bundle.json",
+            "load": true,
+            "name": "Provider Bundle",
+            "description": "CDex sample provider resources.",
+            "type": "Example"
+        }
+    ]
+}
