@@ -5,24 +5,32 @@
     "fhir_base_url": "http://localhost:8081/fhir",
     "links": [
         {
-            "name": "CDex Client",
-            "url": "http://localhost:4201"
-        },
-        {
             "name": "Payer Stack Controller",
-            "url": "http://localhost:4202"
+            "url": "http://localhost:4201/?url=http://localhost:4201/stack-payer.json"
         },
         {
             "name": "Provider Stack Controller",
-            "url": "http://localhost:4203"
+            "url": "http://localhost:4202/?url=http://localhost:4201/stack-provider.json"
+        },
+        {
+            "name": "CDex Client",
+            "url": "http://localhost:9090"
         },
         {
             "name": "Payer HAPI FHIR (R4 Mode)",
             "url": "http://localhost:8081"
         },
         {
+            "name": "Payer HAPI FHIR Base URL",
+            "url": "http://localhost:8081/fhir"
+        },
+        {
             "name": "Provider HAPI FHIR (R4 Mode)",
             "url": "http://localhost:8082"
+        },
+        {
+            "name": "Provider HAPI FHIR Base URL",
+            "url": "http://localhost:8082/fhir"
         }
     ],
     "data": [
