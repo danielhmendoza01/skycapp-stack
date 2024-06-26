@@ -10,7 +10,7 @@
         },
         {
             "name": "Provider Stack Controller",
-            "url": "http://localhost:4202/?url=http://localhost:4201/stack-provider.json"
+            "url": "http://localhost:4201/?url=http://localhost:4201/stack-provider.json"
         },
         {
             "name": "CDex Client",
