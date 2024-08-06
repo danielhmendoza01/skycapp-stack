@@ -3,6 +3,7 @@
     "title": "CDex Provider FHIR Stack Controller",
     "instructions": "Load the default provider server records.",
     "fhir_base_url": "http://localhost:8082/fhir",
+    "driver": "hapi",
     "links": [
         {
             "name": "Payer Stack Controller",
