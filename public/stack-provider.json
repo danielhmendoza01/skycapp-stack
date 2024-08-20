@@ -15,7 +15,7 @@
         },
         {
             "name": "CDex Client",
-            "url": "http://localhost:9090"
+            "url": "http://localhost:9092"
         },
         {
             "name": "Payer HAPI FHIR (R4 Mode)",
