@@ -7,11 +7,11 @@
     "links": [
         {
             "name": "Payer Stack Controller",
-            "url": "https://stack.foundry.hl7.org/?url=https://raw.githubusercontent.com/HL7-DaVinci/cdex-stack/refs/heads/main/public/stack-payer-host.json"
+            "url": "https://stack.foundry.hl7.org/?url=https://raw.githubusercontent.com/HL7-DaVinci/cdex-stack/refs/heads/main/public/stack-payer-hosted.json"
         },
         {
             "name": "Provider Stack Controller",
-            "url": "https://stack.foundry.hl7.org/?url=https://raw.githubusercontent.com/HL7-DaVinci/cdex-stack/refs/heads/main/public/stack-provider-host.json"
+            "url": "https://stack.foundry.hl7.org/?url=https://raw.githubusercontent.com/HL7-DaVinci/cdex-stack/refs/heads/main/public/stack-provider-hosted.json"
         },
         {
             "name": "CDex Client",
