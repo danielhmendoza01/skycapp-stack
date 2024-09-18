@@ -1,0 +1,46 @@
+{
+    "$schema": "https://stack.skycapp.com/stack.schema.json",
+    "title": "CDex Provider FHIR Stack Controller",
+    "instructions": "Load the default provider server records.",
+    "fhir_base_url": "https://cdex-provider-server.davinci.hl7.org/fhir/",
+    "driver": "hapi",
+    "links": [
+        {
+            "name": "Payer Stack Controller",
+            "url": "https://stack.foundry.hl7.org/?url=https://stack.foundry.hl7.org/stack-payer-host.json"
+        },
+        {
+            "name": "Provider Stack Controller",
+            "url": "https://stack.foundry.hl7.org/?url=https://stack.foundry.hl7.org/stack-provider-host.json"
+        },
+        {
+            "name": "CDex Client",
+            "url": "https://cdex-commreq.davinci.hl7.org/"
+        },
+        {
+            "name": "Payer HAPI FHIR (R4 Mode)",
+            "url": "https://cdex-payer-server.davinci.hl7.org"
+        },
+        {
+            "name": "Payer HAPI FHIR Base URL",
+            "url": "https://cdex-payer-server.davinci.hl7.org/fhir/"
+        },
+        {
+            "name": "Provider HAPI FHIR (R4 Mode)",
+            "url": "https://cdex-provider-server.davinci.hl7.org"
+        },
+        {
+            "name": "Provider HAPI FHIR Base URL",
+            "url": "https://cdex-provider-server.davinci.hl7.org/fhir/"
+        }
+    ],
+    "data": [
+        {
+            "file": "provider.bundle.json",
+            "load": true,
+            "name": "Provider Bundle",
+            "description": "CDex sample provider resources.",
+            "type": "Example"
+        }
+    ]
+}
