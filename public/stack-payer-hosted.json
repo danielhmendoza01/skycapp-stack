@@ -1,6 +1,6 @@
 {
     "$schema": "https://stack.skycapp.com/stack.schema.json",
-    "title": "CDex Payer FHIR Stack Controller",
+    "title": "Foundry Hosted CDex Payer FHIR Stack Controller",
     "instructions": "Load the default provider server records.",
     "fhir_base_url": "https://cdex-payer-server.davinci.hl7.org/fhir/",
     "driver": "hapi",
