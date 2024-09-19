@@ -1,0 +1,42 @@
+{
+    "$schema": "https://stack.skycapp.com/stack.schema.json",
+    "title": "WildFHIR FHIR Stack Controller",
+    "instructions": "Load the default payer and provider server records.",
+    "fhir_base_url": "http://localhost:8080/r4",
+    "driver": "wildfhir",
+    "links": [
+        {
+            "name": "Stack Controller",
+            "url": "http://localhost:4201/?url=http://localhost:4201/stack.json"
+        },
+        {
+            "name": "WildFHIR Homepage",
+            "url": "http://localhost:8080"
+        },
+        {
+            "name": "WildFHIR Admin",
+            "url": "http://localhost:9990/console/index.html"
+
+        },
+        {
+            "name": "WildFHIR Base URL",
+            "url": "http://localhost:8080/r4"
+        }
+    ],
+    "data": [
+        {
+            "file": "provider.bundle.json",
+            "load": true,
+            "name": "Provider Bundle",
+            "description": "CDex sample provider resources.",
+            "type": "Example"
+        },
+        {
+            "file": "payer.bundle.json",
+            "load": true,
+            "name": "Payer Bundle",
+            "description": "CDex sample payer resources.",
+            "type": "example"
+        }
+    ]
+}
