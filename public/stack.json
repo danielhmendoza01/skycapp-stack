@@ -6,10 +6,6 @@
     "driver": "wildfhir",
     "links": [
         {
-            "name": "Stack Controller",
-            "url": "http://localhost:4200/?url=http://localhost:4200/stack.json"
-        },
-        {
             "name": "WildFHIR Homepage",
             "url": "http://localhost:8080"
         },
