@@ -1,7 +1,7 @@
 {
     "$schema": "https://stack.skycapp.com/stack.schema.json",
     "title": "WildFHIR FHIR Stack Controller",
-    "instructions": "Load the default payer and provider server records.",
+    "instructions": "Load the default FHIR server records.",
     "fhir_base_url": "http://localhost:8080/r4",
     "driver": "wildfhir",
     "links": [
