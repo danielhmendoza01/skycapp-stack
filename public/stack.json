@@ -1,21 +1,17 @@
 {
     "$schema": "https://stack.skycapp.com/stack.schema.json",
-    "title": "WildFHIR FHIR Stack Controller",
+    "title": "FHIR Stack Controller",
     "instructions": "Load the default FHIR server records.",
-    "fhir_base_url": "http://localhost:8080/r4",
+    "fhir_base_url": "http://localhost:8080/fhir",
     "driver": "wildfhir",
     "links": [
         {
-            "name": "WildFHIR Homepage",
+            "name": "Homepage",
             "url": "http://localhost:8080"
         },
         {
-            "name": "WildFHIR Admin",
-            "url": "http://localhost:9990/console/index.html"
-        },
-        {
-            "name": "WildFHIR Base URL",
-            "url": "http://localhost:8080/r4"
+            "name": "R4 Base URL",
+            "url": "http://localhost:8080/fhir"
         }
     ],
     "data": [
