@@ -3,7 +3,7 @@
     "title": "FHIR Stack Controller",
     "instructions": "Load the default FHIR server records.",
     "fhir_base_url": "http://localhost:8080/fhir",
-    "driver": "wildfhir",
+    "driver": "hapi",
     "links": [
         {
             "name": "Homepage",
